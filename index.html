@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Briggitte Martinez Vidaurre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">Briggitte Martinez Vidaurre</div>
+        <ul class="navbar-links">
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a class="navbar-contact" href="mailto:briggittemartinezvidaurre@gmail.com">briggittemartinezvidaurre@gmail.com</a>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <img src="img/BriggitteMartinezVidaurre.jpg" alt="Foto de perfil" class="profile-picture">
+            <h1 class="title">Hola, soy Briggitte Martinez Vidaurre</h1>
+            <p class="subtitle">Desarrolladora especializada en páginas web modernas y funcionales</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/briggitte-martinez-isi/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/briggitte12" target="_blank">GitHub</a>
+                <a href="https://www.instagram.com/briggittemar_v/?hl=es-la" target="_blank">Instagram</a>
+                <a href="https://drive.google.com/drive/folders/1zaTwVpi58w-kYJT3Fg4MRLG05owUO8vs?usp=drive_link" target="_blank">Currículo</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre-mi" class="about">
+            <div class="container">
+                <h2>Sobre mi</h2>
+                <p>Soy apasionada por el desarrollo web y cuento con experiencia en la creación de páginas web responsivas utilizando HTML, CSS y JavaScript. Actualmente estoy avanzando en mi formación con el programa <strong>Oracle ONE Alura Latam</strong>. Tengo interés por desarrollarme profesionalmente en empresas dentro del área de TI, proyectos o recursos humanos para aplicar mi capacidad analítica y contribuir al avance tecnológico.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <ul class="skills-list">
+                    <li><img src="img/icon-html5.png" alt="HTML5"> HTML5</li>
+                    <li><img src="img/icon-css3.png" alt="CSS3"> CSS3</li>
+                    <li><img src="img/icon-js.png" alt="JavaScript"> JavaScript</li>
+                    <li><img src="img/icon-php.png" alt="PHP"> PHP</li>
+                    <li><img src="img/icon-react.png" alt="React"> React</li>
+                    <li><img src="img/icon-node.png" alt="Node.js"> Node.js</li>
+                    <li><img src="img/icon-git.png" alt="Git"> Git</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="hobbies" class="hobbies">
+            <h2>Hobbies</h2>
+            <ul class="hobbies-list">
+                <li>
+                    <img src="img/dance.png" alt="Bailar">
+                    <p>Bailar</p>
+                </li>
+                <li>
+                    <img src="img/music.png" alt="Escuchar música">
+                    <p>Escuchar música</p>
+                </li>
+                <li>
+                    <img src="img/poetry.png" alt="Declamar">
+                    <p>Declamar</p>
+                </li>
+                <li>
+                    <img src="img/photography.png" alt="Tomar fotos">
+                    <p>Tomar fotos</p>
+                </li>
+                <li>
+                    <img src="img/series.png" alt="Ver series">
+                    <p>Ver series</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="formacion" class="formacion-academica">
+            <h2>Formación Académica</h2>
+            <ul class="formacion-list">
+                <li>
+                    <img src="img/ccna-switching-routing-and-wireless-essentials.png" alt="CCNA">
+                    <h3>CCNA</h3>
+                    <p>2024 - CISCO</p>
+                </li>
+                <li>
+                    <img src="img/ONE.jpg" alt="ONE">
+                    <h3>Formación en Frontend</h3>
+                    <p>2025 - Alura</p>
+                </li>
+                <li>
+                    <img src="img/UTP.jpg" alt="UTP">
+                    <h3>Posgrado en Ingeniería de Sistemas e Informática</h3>
+                    <p>En curso - UTP</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="proyectos" class="projects">
+            <div class="container">
+                <h2>Proyectos destacados</h2>
+                <div class="project">
+                    <img src="img/encriptador.png" alt="Encriptador">
+                    <h3>Encriptador de texto</h3>
+                    <p>Aplicación para encriptar y desencriptar mensajes utilizando JavaScript.</p>
+                    <a href="https://github.com/briggitte12/Challenge-Encriptador.git" target="_blank">Repositorio</a>
+                    <a href="Challenge Encriptador/index.html" target="_blank">Ver demo</a>
+                </div>
+                <div class="project">
+                    <img src="img/NutriShop.png" alt="NutriShop">
+                    <h3>NutriShop</h3>
+                    <p>NutriShop es una tienda en línea dedicada a la venta de productos nutritivos. Se utilizaron tecnologías como PHP, Tailwind, Node.js, PostCSS y JavaScript.</p>
+                    <a href="https://github.com/IngSystemCix/Project-NutriShop" target="_blank">Repositorio</a>
+                    <a href="https://github.com/IngSystemCix/Project-NutriShop?tab=readme-ov-file#" target="_blank">Ver demo</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>¿Tienes algún proyecto en mente? Completa el formulario y me pondré en contacto contigo.</p>
+                <form action="#" method="post" class="contact-form">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
+                    <textarea name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Desarrollado por Briggitte Martinez Vidaurre © 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
