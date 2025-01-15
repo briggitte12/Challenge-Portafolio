@@ -53,6 +53,6 @@ Este proyecto está en constante evolución. Si tienes alguna sugerencia o quier
 ## 📞 Contacto
 Si deseas ponerte en contacto conmigo, puedes hacerlo a través de los siguientes medios:
 
-Correo: briggittemartinezvidaurre@gmail.com
-LinkedIn: [Briggitte Martinez Vidaurre](https://www.linkedin.com/in/briggitte-martinez-isi/)
-GitHub: [briggitte12](https://github.com/briggitte12)
+- Correo: briggittemartinezvidaurre@gmail.com
+- LinkedIn: [Briggitte Martinez Vidaurre](https://www.linkedin.com/in/briggitte-martinez-isi/)
+- GitHub: [briggitte12](https://github.com/briggitte12)
