@@ -1,0 +1,39 @@
+{
+  "name": "challenge-portafolio",
+  "version": "1.0.0",
+  "description": "Bienvenidos a mi **portafolio profesional**. Este proyecto está diseñado para demostrar mis habilidades como desarrolladora, con un enfoque en tecnologías como **JavaScript**, **HTML** y **CSS**, así como en el uso de **frameworks** y **metodologías modernas**.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briggitte12/Challenge-Portafolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briggitte12/Challenge-Portafolio/issues"
+  },
+  "homepage": "https://github.com/briggitte12/Challenge-Portafolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  },
+  "dependencies": {
+    "browserslist": "^4.25.1",
+    "caniuse-lite": "^1.0.30001731",
+    "electron-to-chromium": "^1.5.197",
+    "escalade": "^3.2.0",
+    "fraction.js": "^4.3.7",
+    "nanoid": "^3.3.11",
+    "node-releases": "^2.0.19",
+    "normalize-range": "^0.1.2",
+    "picocolors": "^1.1.1",
+    "postcss-value-parser": "^4.2.0",
+    "source-map-js": "^1.2.1",
+    "update-browserslist-db": "^1.1.3"
+  }
+}

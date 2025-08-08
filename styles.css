@@ -125,83 +125,54 @@ h2 {
     margin: 2 auto;
 }
 
-.skills {
-    background-color: #fce4ec;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.skills-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-}
-
-.skills-list li {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.skills-list li:hover {
-    transform: scale(1.05);
-}
-
-.skills-list img {
-    width: 77%;
-    height: 77%;
-    margin-bottom: 10px;
-}
-
-.hobbies {
+.actividades-extracurriculares {
     background-color: #fff;
     padding: 40px 20px;
+}
+
+.actividades-extracurriculares h2 {
     text-align: center;
-}
-
-.hobbies h2 {
-    font-size: 2rem;
     color: #d81b60;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
-.hobbies-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
+.actividad {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
 }
 
-.hobbies-list li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #fce4ec;
-    
+.actividad-header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.actividad ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.actividad p {
+    margin-bottom: 0.5rem;
+}
+
+.actividades-extracurriculares img {
+    background: #fce4ec;
+    object-fit: contain;
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
-}
-
-.hobbies-list li:hover {
-    transform: scale(1.05);
-}
-
-.hobbies-list img {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1);
 }
 
 .formacion-academica{
@@ -233,7 +204,7 @@ h2 {
 }
 
 .projects {
-    background: #fff;
+    background: #fce4ec;
     padding: 40px 20px;
     text-align: center;
 }
@@ -245,7 +216,7 @@ h2 {
 }
 
 .project {
-    background: #fce4ec;
+    background: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -259,7 +230,7 @@ h2 {
 }
 
 .project img {
-    width: 100%;
+    width: 60%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -273,12 +244,71 @@ h2 {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     font-weight: bold;
-    transition: background 0.3s;
+    transition: 0.3s;
 }
 
 .project a:hover {
     background: #c2185b;
 }
+
+.certificados-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.certificado {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.certificado:hover {
+    transform: scale(1.03);
+}
+
+.certificado img {
+    width: 60%;
+    border-radius: 10px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.certificado h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 5px;
+    color: #000;
+}
+
+.certificado p {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.boton-credencial {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #d81b60;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.boton-credencial:hover {
+    background-color: #c2185b;
+}
+
+.boton-credencial i {
+    margin-left: 6px;
+}
+
 
 @media (max-width: 768px) {
     .projects h2 {
@@ -384,11 +414,6 @@ h2 {
         font-size: 1rem;
     }
 
-    .hobbies-list img {
-        width: 60px;
-        height: 60px;
-    }
-
     .formacion-list,
     .project {
         grid-template-columns: 1fr;
@@ -401,7 +426,7 @@ h2 {
         align-items: center;
     }
 
-    .skills-list li, .hobbies-list li, .formacion-list li {
+    .skills-list li, .certificados-, .formacion-list li {
         flex: 1 1 100%;
     }
 

@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Briggitte Martinez Vidaurre</title>
+    <title>Portafolio | Briggitte Martinez Vidaurre</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="script.js"></script>
@@ -14,10 +17,10 @@
         <div class="navbar-brand">Briggitte Martinez Vidaurre</div>
         <ul class="navbar-links">
             <li><a href="#sobre-mi">Sobre mi</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#formacion">Formación</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#proyectos">Proyectos</a></li> 
+            <li><a href="#actividades">Actividades Extracurriculares</a></li>           
+            <li><a href="#formacion">Educación</a></li>
+            <li><a href="#certificados">Certificados</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
         <a class="navbar-contact" href="mailto:briggittemartinezvidaurre@gmail.com">briggittemartinezvidaurre@gmail.com</a>
@@ -25,14 +28,13 @@
 
     <header class="header">
         <div class="container">
-            <img src="img/BriggitteMartinezVidaurre.jpg" alt="Foto de perfil" class="profile-picture">
-            <h1 class="title">Hola, soy Briggitte Martinez Vidaurre</h1>
-            <p class="subtitle">Desarrolladora especializada en páginas web modernas y funcionales</p>
+            <img src="img/BriggitteMartinezVidaurre.jpeg" alt="Foto de perfil" class="profile-picture">
+            <h1 class="title">Briggitte Martinez Vidaurre</h1>
+            <p class="subtitle">Ingeniera de Sistemas en formación</p>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/briggitte-martinez-isi/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/briggitte12" target="_blank">GitHub</a>
-                <a href="https://www.instagram.com/briggittemar_v/?hl=es-la" target="_blank">Instagram</a>
-                <a href="https://drive.google.com/drive/folders/1zaTwVpi58w-kYJT3Fg4MRLG05owUO8vs?usp=drive_link" target="_blank">Currículo</a>
+                <a href="https://www.linkedin.com/in/briggitte-martinez-isi/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/briggitte12" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://drive.google.com/drive/folders/1zaTwVpi58w-kYJT3Fg4MRLG05owUO8vs?usp=drive_link" target="_blank" rel="noopener">CV</a>
             </div>
         </div>
     </header>
@@ -41,89 +43,275 @@
         <section id="sobre-mi" class="about">
             <div class="container">
                 <h2>Sobre mi</h2>
-                <p>Soy apasionada por el desarrollo web y cuento con experiencia en la creación de páginas web responsivas utilizando HTML, CSS y JavaScript. Actualmente estoy avanzando en mi formación con el programa <strong>Oracle ONE Alura Latam</strong>. Tengo interés por desarrollarme profesionalmente en empresas dentro del área de TI, proyectos o recursos humanos para aplicar mi capacidad analítica y contribuir al avance tecnológico.</p>
+                <p><strong>Conectando tecnología, personas y propósito con soluciones que generan impacto real.</strong></p>
+                <p>Estudiante del 8° ciclo de Ingenier&iacute;a de Sistemas e Inform&aacute;tica en la UTP, con experiencia en desarrollo web, análisis de datos, soporte técnico y formación digital. Manejo tecnologías como Java, JavaScript, HTML, CSS, SQL Server, Oracle y Google Cloud. Actualmente, me desempeño como instructora de Redes en la comunidad universitaria Many To One (MTO) y participo activamente en programas de liderazgo. Me apasiona la tecnología con propósito y estoy comprometida con proyectos de impacto social y educativo. Con inter&eacute;s en realizar pr&aacute;cticas preprofesionales.</p>
             </div>
-        </section>
-
-        <section id="skills" class="skills">
-            <div class="container">
-                <h2>Habilidades</h2>
-                <ul class="skills-list">
-                    <li><img src="img/icon-html5.png" alt="HTML5"> HTML5</li>
-                    <li><img src="img/icon-css3.png" alt="CSS3"> CSS3</li>
-                    <li><img src="img/icon-js.png" alt="JavaScript"> JavaScript</li>
-                    <li><img src="img/icon-php.png" alt="PHP"> PHP</li>
-                    <li><img src="img/icon-react.png" alt="React"> React</li>
-                    <li><img src="img/icon-node.png" alt="Node.js"> Node.js</li>
-                    <li><img src="img/icon-git.png" alt="Git"> Git</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="hobbies" class="hobbies">
-            <h2>Hobbies</h2>
-            <ul class="hobbies-list">
-                <li>
-                    <img src="img/dance.png" alt="Bailar">
-                    <p>Bailar</p>
-                </li>
-                <li>
-                    <img src="img/music.png" alt="Escuchar música">
-                    <p>Escuchar música</p>
-                </li>
-                <li>
-                    <img src="img/poetry.png" alt="Declamar">
-                    <p>Declamar</p>
-                </li>
-                <li>
-                    <img src="img/photography.png" alt="Tomar fotos">
-                    <p>Tomar fotos</p>
-                </li>
-                <li>
-                    <img src="img/series.png" alt="Ver series">
-                    <p>Ver series</p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="formacion" class="formacion-academica">
-            <h2>Formación Académica</h2>
-            <ul class="formacion-list">
-                <li>
-                    <img src="img/ccna-switching-routing-and-wireless-essentials.png" alt="CCNA">
-                    <h3>CCNA</h3>
-                    <p>2024 - CISCO</p>
-                </li>
-                <li>
-                    <img src="img/ONE.jpg" alt="ONE">
-                    <h3>Formación en Frontend</h3>
-                    <p>2025 - Alura</p>
-                </li>
-                <li>
-                    <img src="img/UTP.jpg" alt="UTP">
-                    <h3>Posgrado en Ingeniería de Sistemas e Informática</h3>
-                    <p>En curso - UTP</p>
-                </li>
-            </ul>
         </section>
 
         <section id="proyectos" class="projects">
             <div class="container">
-                <h2>Proyectos destacados</h2>
+                <h2>Proyectos</h2>
+                <div class="project">
+                    <img src="img/Proyecto-alurageek.png" alt="Productos">
+                    <h3>AluraGeek | Ene 2025</h3>
+                    <p><strong>Rol: </strong>Desarrolladora<br>
+                    <p>Implementé una aplicación que permite administrar productos a través de una interfaz dinámica y responsiva.</p>
+                    <a href="https://github.com/briggitte12/Challenge-AluraGeek" target="_blank" rel="noopener">Repositorio</a>
+                </div>
                 <div class="project">
                     <img src="img/encriptador.png" alt="Encriptador">
-                    <h3>Encriptador de texto</h3>
-                    <p>Aplicación para encriptar y desencriptar mensajes utilizando JavaScript.</p>
-                    <a href="https://github.com/briggitte12/Challenge-Encriptador.git" target="_blank">Repositorio</a>
-                    <a href="Challenge Encriptador/index.html" target="_blank">Ver demo</a>
+                    <h3>Encriptador de texto | Ene 2025</h3>
+                    <p><strong>Rol: </strong>Desarrolladora<br>
+                    <p>Desarrollé una aplicación para encriptar y desencriptar mensajes utilizando JavaScript.</p>
+                    <a href="https://github.com/briggitte12/Challenge-Encriptador.git" target="_blank" rel="noopener">Repositorio</a>
+                    <a href="https://challenge-encriptador-ochre-six.vercel.app/" target="_blank" rel="noopener">Ver demo</a>
+                </div>
+                <div class="project">
+                    <img src="img/Femisalud.png" alt="Ecografia">
+                    <h3>Sistema web para visualización de ecografías de FemiSalud | Ago 2024 – Dic 2024</h3>
+                    <p><strong>Rol: </strong>Analista, UX/UI<br>
+                    Desarrollé un sistema web para visualizar y descargar ecografías de pacientes usando Java EE 8, JSP y MariaDB. <br>
+                    Gestión de despliegue en Oracle Cloud.</p>
+                    <a href="https://github.com/IngSystemCix/FemiSalud" target="_blank" rel="noopener">Repositorio</a>
+                </div>
+                <div class="project">
+                    <img src="img/Proyecto-estacionamiento.png" alt="Estacionamiento">
+                    <h3>Sistema web para gestión de estacionamiento | Ago 2024 – Dic 2024</h3>
+                    <p><strong>Rol: </strong>Desarrolladora<br>
+                    Creé un sistema web en Java para la gestión de vehículos en estacionamientos, utilizando JSP y JSF.<br> 
+                    Integré APIs REST y se desplegó en Oracle Cloud, empleando Wildfly, Java EE 8 y MariaDB.</p>
+                    <a href="https://github.com/briggitte12/Proyecto_estacionamiento" target="_blank" rel="noopener">Repositorio</a>
+                </div>
+                <div class="project">
+                    <img src="img/Proyecto-rutas.png" alt="Rutas">
+                    <h3>Sistema de rutas de transporte urbano | Jul 2024</h3>
+                    <p><strong>Rol:</strong> Programadora principal<br>
+                    Desarrollé una aplicación en Java que administra rutas de transporte urbano mediante grafos.<br>
+                    Logré optimizar el cálculo de rutas eficientes, reduciendo en un 25% los tiempos de búsqueda de rutas.</p>
+                    <a href="https://github.com/briggitte12/Proyecto-rutas" target="_blank" rel="noopener">Repositorio</a>
+                </div>
+                <div class="project">
+                    <img src="img/Proyecto-kanban.png" alt="Herramienta">
+                    <h3>Implementación de la herramienta CSV Search And Sort Tool | Abr 2024</h3>
+                    <p><strong>Rol: </strong>Desarrolladora<br>
+                    <p>Diseñé una solución basada en el marco de trabajo Kanban utilizando Java y NetBeans.<br>
+                    Simplificamos la gestión de proyectos, aumentando la productividad del equipo en un 20%.</p>
+                    <a href="https://github.com/briggitte12/Proyecto-Kanban" target="_blank" rel="noopener">Repositorio</a>
                 </div>
                 <div class="project">
                     <img src="img/NutriShop.png" alt="NutriShop">
-                    <h3>NutriShop</h3>
-                    <p>NutriShop es una tienda en línea dedicada a la venta de productos nutritivos. Se utilizaron tecnologías como PHP, Tailwind, Node.js, PostCSS y JavaScript.</p>
-                    <a href="https://github.com/IngSystemCix/Project-NutriShop" target="_blank">Repositorio</a>
-                    <a href="https://github.com/IngSystemCix/Project-NutriShop?tab=readme-ov-file#" target="_blank">Ver demo</a>
+                    <h3>NutriShop | Mar 2024 - Jul 2024</h3>
+                    <p><strong>Rol: </strong>Desarrolladora<br>
+                    <p>NutriShop es una tienda en línea dedicada a la venta de productos nutritivos. <br>
+                    Se utilizaron tecnologías como PHP, Tailwind, Node.js, PostCSS y JavaScript.</p>
+                    <a href="https://github.com/IngSystemCix/Project-NutriShop" target="_blank" rel="noopener">Repositorio</a>
                 </div>
+                <div class="project">
+                    <img src="img/Proyecto-hotel.png" alt="Hotel">
+                    <h3>Sistema de reservas para Hotel King | Set 2023 – Dic 2023</h3>
+                    <p><strong>Rol: </strong>Desarrolladora<br>
+                    <p>Automaticé las reservas hoteleras con una app segura, mejorando la experiencia del cliente y reduciendo tiempos de respuesta en un 30%.</p>
+                    <a href="https://github.com/briggitte12/Proyecto-hotel" target="_blank" rel="noopener">Repositorio</a>
+                </div>
+                <div class="project">
+                    <img src="img/Proyecto-colegio.png" alt="Colegio">
+                    <h3>Diseño de la base de datos (DB) para la I.E. El Nazareno en Chiclayo | Set 2023 – Dic 2023</h3>
+                    <p><strong>Rol: </strong>DBA<br>
+                    <p>Implementé una base de datos en SQL Server que permite manejar información académica y administrativa.<br>
+                    Reducí los tiempos de consulta en un 40% y aumentamos la seguridad de los datos en un 50%.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="actividades" class="actividades-extracurriculares">
+            <h2>Actividades Extracurriculares</h2>
+            <div class="actividad">
+                <img src="img/Constancia_Voluntariado.jpg" alt="Constancia">
+                <p class="actividad-header">Universidad Tecnológica del Perú | Nov 2024</p>
+                <p><strong>Voluntaria – Diagnóstico Técnico de laboratorio de cómputo - Colegio José Carlos Mariátegui</strong></p>
+                <ul>
+                    <li>Brindé soporte técnico en la evaluación del estado de equipos y redes en el laboratorio de cómputo.</li>
+                    <li>Analicé la conectividad y topología de red para detectar oportunidades de mejora.</li>
+                    <li>Guié a estudiantes de 4.º de primaria en su primer "Hola Mundo" con Pseint.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="formacion" class="formacion-academica">
+            <div class="container">
+                <h2>Educación</h2>
+                <ul class="formacion-list">
+                    <li>
+                        <img src="img/UTP.jpg" alt="UTP">
+                        <p><strong>Universidad Tecnológica del Perú</strong><br>
+                        Mar 2022 - actualidad<br>
+                        Ingeniería de Sistemas e Informática, VIII ciclo<br>
+                        Décimo Superior, BEA UTP, GTOP 2025</p>
+                    </li>
+                    <li>
+                        <img src="img/harvard_business_school_logo.jpg" alt="Harvard">
+                        <p><strong>Harvard Business School</strong><br>
+                        Mar 2025 - May 2025<br>
+                        Aspire Leaders Program<br>
+                        Liderazgo, Impacto Social, Innovación y Desarrollo Global</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certificados" class="certificados">
+            <div class="container">
+                <h2>Certificaciones</h2>
+                <div class="certificados-grid">
+                    <div class="certificado">
+                        <img src="img/Constancia_IntroduccionVoluntariadoUTP.jpg" alt="UTP_IntroduccionVoluntariado">
+                        <h3>Introducción al Voluntariado UTP</h3>
+                        <p>UTP Universidad Tecnológica del Perú | Jul 2025</p>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_CyberThreatManagement.png" alt="Cisco_Cyber">
+                        <h3>Cyber Threat Management</h3>
+                        <p>Cisco | Jul 2025</p>
+                        <a href="https://www.credly.com/badges/17d21d3f-0cc6-4a34-9d00-7e388983f8cd/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                    <div class="certificado">
+                        <img src="img/lifelong-learning-2025.png" alt="CertiProf">
+                        <h3>Lifelong Learning 2025</h3>
+                        <p>CertiProf | Jul 2025</p>
+                        <a href="https://www.credly.com/badges/bc2f2677-ea04-48ca-a714-aba6b2fc0e40/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/build-a-secure-google-cloud-network-skill-badge.png" alt="Google_Skill_Badge">
+                        <h3>Build a Secure Google Cloud Network Skill Badge</h3>
+                        <p>Google | Jun 2025</p>
+                        <a href="https://www.credly.com/badges/dfc39429-d66e-4fd0-a9af-d55feb2de40d/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/google-cloud-computing-foundations-certificate.png" alt="Google_Cloud_Certificate">
+                        <h3>Google Cloud Computing Foundations Certificate</h3>
+                        <p>Google | Jun 2025</p>
+                        <p>Aptitudes: GCP · Cloud Infrastructure · BigQuery · IAM</p>
+                        <a href="https://www.credly.com/badges/135333f7-8e84-4ad7-af23-e6818a7dbcd9/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/implement-load-balancing-on-compute-engine-skill-ba.png" alt="Google_Cloud_Implement">
+                        <h3>Implement Load Balancing on Compute Engine Skill Badge</h3>
+                        <p>Google | Jun 2025</p>
+                        <a href="https://www.credly.com/badges/d9327e3c-2c42-4073-a3a7-48c5103c8c20/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_NetworkDefense.jpg" alt="Cisco_Network">
+                        <h3>Network Defense</h3>
+                        <p>Cisco | Jun 2025</p>
+                        <a href="https://www.credly.com/badges/6c31edb4-abc0-47e7-b7ef-c0bf50a98987/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/prepare-data-for-ml-apis-on-google-cloud-skill-badge.png" alt="Google_Prepare">
+                        <h3>Prepare Data for ML APIS on Google Cloud Skill Badge</h3>
+                        <p>Google | Jun 2025</p>
+                        <a href="https://www.credly.com/badges/ae2d9622-0626-4b9f-8684-1e23e04e93b0/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/set-up-an-app-dev-environment-on-google-cloud-skill.png" alt="Google_Set">
+                        <h3>Set Up an App Dev Environment on Google Cloud Skill Badge</h3>
+                        <p>Google | Jun 2025</p>
+                        <a href="https://www.credly.com/badges/40d882f1-548c-4571-8d11-6c982277f64e/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Constancia_EJE.png" alt="Corte">
+                        <h3>Asistencia Técnica El Expediente Judicial Electrónico (EJE) en la especialidad Oralidad Civil</h3>
+                        <p>Corte Superior de Justicia de Lambayeque Poder Judicial | May 2025</p>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_EndpointSecurity.jpg" alt="Cisco_Endpoint">
+                        <h3>Endpoint Security</h3>
+                        <p>Cisco | May 2025</p>
+                        <a href="https://www.credly.com/badges/64b374a9-5a84-4e08-977d-ac0281bd8c78/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_IntroductionToCybersecurity.jpg" alt="Cisco_Introduction">
+                        <h3>Introduction to Cybersecurity</h3>
+                        <p>Cisco | Abr 2025</p>
+                        <a href="https://www.credly.com/badges/6866f951-ebf6-436f-b42c-6ae41a55856c/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/scrum-foundation-learner-2025.png" alt="CertiProf_Scrum">
+                        <h3>Scrum Foundation Learner 2025</h3>
+                        <p>CertiProf | Abr 2025</p>
+                        <a href="https://www.credly.com/badges/59469ccb-c79f-4600-a52f-4cc61c1a821e/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_Frontend.png" alt="Alura_Frontend">
+                        <h3>Programa Oracle Next Education F2 T7 Front-end</h3>
+                        <p>Alura Latam | Ene 2025</p>
+                        <a href="https://app.aluracursos.com/program/certificate/6a6c8170-96eb-4b33-9a6c-73c492b2cd3c?lang" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_CCNA_SRWE.png" alt="Cisco_SRWE">
+                        <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
+                        <p>Cisco | Nov 2024</p>
+                        <a href="https://www.credly.com/badges/fa8f730c-865c-48f4-b0aa-71537cf650d7/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Constancia_UTP_Excel.png" alt="UTP_Excel">
+                        <h3>Asesor en Excel Intermedio</h3>
+                        <p>UTP Universidad Tecnológica del Perú | Sep 2024</p>
+                        <p>Aptitudes: Microsoft Excel · Bases de datos · Dashboards de Excel</p>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_UTP_Soporte.png" alt="UTP_Soporte">
+                        <h3>Especialista de Soporte Técnico</h3>
+                        <p>UTP Universidad Tecnológica del Perú | Sep 2024</p>
+                        <p>Aptitudes: Sistemas operativos · Reparación de equipos informáticos · Autodesk Tinkercad · Robótica</p>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_Desarrollo.png" alt="Alura_Desarrollo">
+                        <h3>Formación Desarrollo Personal G7 - ONE</h3>
+                        <p>Alura Latam | Ago 2024</p>
+                        <a href="https://app.aluracursos.com/degree/certificate/3cd9df65-7c3c-4932-bfef-89b15059151f?lang" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_Programacion.png" alt="Alura_Programacion">
+                        <h3>Formación Lógica de programación con JavaScript</h3>
+                        <p>Alura Latam | Ago 2024</p>
+                        <a href="https://app.aluracursos.com/degree/certificate/f213848e-4dfd-402e-871a-fec22f8a5233?lang" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_Principiante.png" alt="Alura_Principiante">
+                        <h3>Formación Principiante en Programación G7 - ONE</h3>
+                        <p>Alura Latam | Ago 2024</p>
+                        <a href="https://app.aluracursos.com/degree/certificate/b21515b0-4064-4cac-9067-b12f03564a8b?lang" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="certificado">
+                        <img src="img/Certificado_IntroductionToNetworks.jpg" alt="Cisco_ITN">
+                        <h3>CCNA: Introduction to Networks</h3>
+                        <p>Cisco | Jul 2024</p>
+                        <a href="https://www.credly.com/badges/74fc2ea9-8212-483c-b10f-a3f310c8ec67/linked_in_profile" target="_blank" class="boton-credencial" rel="noopener">Mostrar credencial<i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+</section>
+
             </div>
         </section>
 
